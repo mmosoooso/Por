@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+
+  .span{
+    color: rgb(80, 80, 117);
+    font-size: 200px;
+    opacity: 0.5;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  p {
+    color: #ffffff;
+    padding: 20px;
+    text-align: justify;
+
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 300px; /* Adjust the value as needed */
+    margin-top: 120px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
+  
+  
